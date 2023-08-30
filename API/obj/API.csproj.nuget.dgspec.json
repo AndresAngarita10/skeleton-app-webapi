@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\API\\API.csproj": {}
+    "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\API\\API.csproj": {
+    "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\API\\API.csproj",
+        "projectPath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\API\\API.csproj",
         "packagesPath": "C:\\Users\\APT01-042\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\API\\obj\\",
+        "outputPath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APT01-042\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Aplicacion\\Aplicacion.csproj"
+              "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Aplicacion\\Aplicacion.csproj"
               }
             }
           }
@@ -42,7 +42,29 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AspNetCoreRateLimit": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.10, )"
             },
@@ -74,14 +96,14 @@
         }
       }
     },
-    "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Aplicacion\\Aplicacion.csproj": {
+    "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Aplicacion\\Aplicacion.csproj",
+        "projectPath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Aplicacion\\Aplicacion.csproj",
         "packagesPath": "C:\\Users\\APT01-042\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Aplicacion\\obj\\",
+        "outputPath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APT01-042\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -96,11 +118,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Dominio\\Dominio.csproj": {
-                "projectPath": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Dominio\\Dominio.csproj"
+              "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Dominio\\Dominio.csproj"
               },
-              "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Persistencia\\Persistencia.csproj"
+              "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -134,14 +156,14 @@
         }
       }
     },
-    "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\APT01-042\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Dominio\\obj\\",
+        "outputPath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APT01-042\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -167,6 +189,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "itext7.pdfhtml": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -187,14 +223,14 @@
         }
       }
     },
-    "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Persistencia\\Persistencia.csproj",
+        "projectPath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\APT01-042\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APT01-042\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -209,8 +245,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Dominio\\Dominio.csproj": {
-                "projectPath": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Dominio\\Dominio.csproj"
+              "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -224,6 +260,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -9,3 +9,4 @@ C:\Users\APT01-042\Documents\ejercicio4Capas\skeleton-app-webapi\Dominio\obj\Deb
 C:\Users\APT01-042\Documents\ejercicio4Capas\skeleton-app-webapi\Dominio\obj\Debug\net7.0\refint\Dominio.dll
 C:\Users\APT01-042\Documents\ejercicio4Capas\skeleton-app-webapi\Dominio\obj\Debug\net7.0\Dominio.pdb
 C:\Users\APT01-042\Documents\ejercicio4Capas\skeleton-app-webapi\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+C:\Users\APT01-042\Documents\ejercicio4Capas\skeleton-app-webapi\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
