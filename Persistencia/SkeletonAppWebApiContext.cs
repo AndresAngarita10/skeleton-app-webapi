@@ -10,7 +10,7 @@ namespace Persistencia
 {
     public class SkeletonAppWebApiContext : DbContext
     {
-        public SkeletonAppWebApiContext(DbContextOptions<SkeletonAppWebApiContext> options) : base(options)
+        public SkeletonAppWebApiContext(DbContextOptions <SkeletonAppWebApiContext> options) : base(options)
         {
 
         }
@@ -25,10 +25,10 @@ namespace Persistencia
         public DbSet<TrainerSalon> TrainerSalones { get; set; }
     
         
-       /*  protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         { 
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
-        } */
+        }
     }
 }

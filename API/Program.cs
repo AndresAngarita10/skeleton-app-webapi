@@ -1,6 +1,7 @@
 using iText.Kernel.XMP.Options;
 using Persistencia;
 using Microsoft.EntityFrameworkCore;
+using API.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,13 +12,18 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//--------------------------------------
+//-------------------------------------------------/////////////////
 builder.Services.AddDbContext<SkeletonAppWebApiContext>(options =>
-{
-    string connectionString = builder.Configuration.GetConnectionString("ConexMysql");   
-    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
-}
+    {
+        string connectionString = builder.Configuration.GetConnectionString("ConexMysql");   
+        options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+    }
 );
 
+builder.Services.ConfigureCors();
+
+//_------------------------------------///////////////
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -26,7 +32,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+//----------------------------------------
+//------------------------------------------------
 
+app.UseCors("CorsPolicy");
+
+//----------------------------------------------
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

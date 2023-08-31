@@ -15,7 +15,14 @@ namespace Persistencia.Data.Configuration
             //throw new NotImplementedException();
             builder.ToTable("matricula");
 
+            builder.HasOne(p => p.Persona)
+            .WithMany(p => p.Matriculas)
+            .HasForeignKey(p => p.IdPersonaFk);
+
             
+            builder.HasOne(p => p.Salon)
+            .WithMany(p => p.Matriculas)
+            .HasForeignKey(p => p.IdSalonFk);
         }
     }
 }
