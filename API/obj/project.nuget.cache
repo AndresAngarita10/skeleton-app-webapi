@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oq0XnW4wvW1yEZC5CE0figrL3cTpqL9lcqNVHRSt3dWu/C7AM+77EV+rR5bFAo3DcUk2xj13BdO6pDS8cRVVcw==",
+  "dgSpecHash": "co5U//1sLE/D2OLuALpJBIyglw5h/ZMXN5qUUmQaPrQoK5E3j0crrKngTBtDcELUiBuQst45VB8ION2fQF01jQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\API\\API.csproj",
+  "projectFilePath": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\APT01-042\\.nuget\\packages\\aspnetcoreratelimit\\5.0.0\\aspnetcoreratelimit.5.0.0.nupkg.sha512",
     "C:\\Users\\APT01-042\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",

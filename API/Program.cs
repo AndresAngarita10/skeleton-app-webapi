@@ -12,6 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//---------------------------
 //--------------------------------------
 //-------------------------------------------------/////////////////
 builder.Services.AddDbContext<SkeletonAppWebApiContext>(options =>
@@ -32,12 +33,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-//----------------------------------------
+//---------------------------
+//--------------------------------------
 //------------------------------------------------
 
 app.UseCors("CorsPolicy");
 
-//----------------------------------------------
+//----------------------------------------------///////////////////////
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

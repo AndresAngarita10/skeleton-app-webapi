@@ -8,7 +8,7 @@ using Persistencia;
 
 namespace Aplicacion.Repository
 {
-    public class PaisRepository : GenericRepository<Pais>, IpaisRepository
+    public class PaisRepository : GenericRepository<Pais>, IPaisRepository
     {
         public PaisRepository(SkeletonAppWebApiContext context) : base(context)
         {
