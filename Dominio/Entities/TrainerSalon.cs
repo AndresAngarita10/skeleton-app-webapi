@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace Dominio.Entities
 {
-    public class TrainerSalon : BaseEntity
+    public class TrainerSalon 
     {
-        public int IdPerTrainerFk { get; set; }
-        public Persona Persona { get; set; }
         public int IdSalonFk { get; set; }
         public Salon Salon { get; set; }
+        public int IdPerTrainerFk { get; set; }
+        public Persona Persona { get; set; }
     }
 }

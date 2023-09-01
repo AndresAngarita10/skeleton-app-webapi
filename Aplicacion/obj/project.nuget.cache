@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2zqaSAw3EiZecFUqnQdrpwWNfihazk6r8KYDNJ41OiPsNFCILhiF3WRIK/iWcko5ac0hvNh+XCnhrNFy6X9lqw==",
+  "dgSpecHash": "MZAgbYcqlZylp5rieJYuFdXpSLdxe2RYqqXySlT1Wze7j5jsNlF9qwsK2UzKndW70dALBkeB2LwXfNQ/H6hfLQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Aplicacion\\Aplicacion.csproj",
+  "projectFilePath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Aplicacion\\Aplicacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\APT01-042\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\APT01-042\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CjRWG2/mbguGP8IW2xk5WpZGfdS1TqxOa9lzSDNDhn3UHVUzbWfpPTDhK/Lgl1rEnVOEI4A54Fw4y8thxKmijg==",
+  "dgSpecHash": "GpsoYX1tZUQdXrLBY+I4/CYZgd3JVojdRoVvWrtCV8JWpzrfdJby5RowV3pHLEuVoeQiBd28c3f7OPQat03Dkw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\skeleton-app-webapi\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\APT01-042\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\APT01-042\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",

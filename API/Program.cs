@@ -2,6 +2,7 @@ using iText.Kernel.XMP.Options;
 using Persistencia;
 using Microsoft.EntityFrameworkCore;
 using API.Extensions;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,8 @@ builder.Services.AddDbContext<SkeletonAppWebApiContext>(options =>
 );
 
 builder.Services.ConfigureCors();
+builder.Services.AddAplicacionServices();//-----------------
+builder.Services.AddAutoMapper(Assembly.GetEntryAssembly()); // ------------------
 
 //_------------------------------------///////////////
 var app = builder.Build();
